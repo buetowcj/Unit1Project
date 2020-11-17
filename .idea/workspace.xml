@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ebde0bf-a78f-4709-846d-75e563c29fd4" name="Default Changelist" comment="" />
+    <list default="true" id="8ebde0bf-a78f-4709-846d-75e563c29fd4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kJ20lenDDaogyNwfOf2MKfRdLd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript-conditionals" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -41,22 +49,55 @@
       <option name="presentableId" value="Default" />
       <updated>1605404153247</updated>
       <workItem from="1605404154329" duration="24239000" />
-      <workItem from="1605569215057" duration="6112000" />
+      <workItem from="1605569215057" duration="6394000" />
+      <workItem from="1605647169493" duration="1422000" />
     </task>
+    <task id="LOCAL-00001" summary="Secondary commit">
+      <created>1605588164022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605588164022</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Secondary commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Secondary commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605588144025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605588144025" />
+    <state x="583" y="1" key="CommitChangelistDialog2" timestamp="1605588163519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="1" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605588163519" />
     <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1605544665012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="260" y="278" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605544665012" />
+    <state x="834" y="422" key="Github.ShareDialog" timestamp="1605588119695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="834" y="422" key="Github.ShareDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605588119695" />
+    <state x="760" y="142" key="Github.UntrackedFilesDialog" timestamp="1605588123012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="142" key="Github.UntrackedFilesDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605588123012" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1605404229534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605404229534" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1605588164928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605588164928" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605404207319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

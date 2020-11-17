@@ -18,7 +18,7 @@ $(document).ready (function()
         selectedMeat.each(function () {
             // add to a meatsPrice variable
             meatsPrice += $(this).data("price");
-            meatName += $(this).id;
+            meatName += $(this).attr("id");
             meatName += "<br>";
         });
 
@@ -32,26 +32,26 @@ $(document).ready (function()
         selectedVeggies.each(function () {
             // add to a subtotal variable
             veggiesPrice += $(this).data("price");
-            veggieName += $(this).id;
+            veggieName += $(this).attr("id");
             veggieName += "<br>";
         });
 
         // ask jquery for selected size button
         var selectedSize = $("input[name=size]:checked");
         var sizePrice = selectedSize.data("price");
-        var sizeName = selectedSize.id;
+        var sizeName = selectedSize.attr("id");
 
 
         // ask jquery for selected crust button
         var selectedCrust = $("input[name=crust]:checked");
-        var crustName = selectedCrust.id;
+        var crustName = selectedCrust.attr("id");
 
 
         // output sizeName, crustName, meatName, veggieName
         $("#sizeOutput").text(sizeName);
         $("#crustOutput").text(crustName);
-        $("#meatOutput").text(meatName);
-        $("#veggieOutput").text(veggieName);
+        $("#meatOutput").html(meatName);
+        $("#veggieOutput").html(veggieName);
 
         // add size + meats + veggies to get grandTotal
         var grandTotal = sizePrice + meatsPrice + veggiesPrice;
