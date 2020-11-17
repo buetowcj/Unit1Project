@@ -1,0 +1,51 @@
+body {
+    font-family: "Gill Sans MT", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    color: tan;
+    font-family: "Gill Sans Ultra Bold";
+}
+
+h3 {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+header {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    color: tan;
+    padding: 1em;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    min-width: 550px;
+    max-width: 1280px;
+}
+
+fieldset {
+    color: green;
+    background-color: tan;
+}
+
+legend {
+    color: red;
+}
+
+label {
+    font-size: large;
+}
+

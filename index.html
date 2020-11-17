@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mario's Pizza</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+<body>
+    <header>
+    <h1><i>Mario's <img src="Mario%2527s_Hat.png" alt="Mario hat" width="166.5" height="75.5"> Pizzeria</i> </h1> <br>
+    </header>
+    <form>
+        <h2>Choose pizza details</h2>
+        <fieldset>
+                <fieldset> <legend><h3>Size</h3></legend>
+                    <input type = "radio"
+                           name = "size"
+                           id = "small"
+                           value = "size"
+                           data-price="7"/>
+                    <label for="small">Small - $7.00</label><br>
+
+                    <input type = "radio"
+                           name = "size"
+                           id = "medium"
+                           value = "size"
+                           data-price="9"/>
+                    <label for="medium">Medium - $9.00</label> <br>
+
+                <input type = "radio"
+                       name = "size"
+                       id = "large"
+                       value = "size"
+                       data-price="12"/>
+                <label for = "large">Large $12.00</label>
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Crust</h3></legend>
+                    <input type = "radio"
+                           name = "crust"
+                           id = "thin"
+                           value = "crust" />
+                    <label for="thin">Thin</label><br>
+
+                    <input type = "radio"
+                           name = "crust"
+                           id = "pan"
+                           value = "crust" />
+                    <label for="pan">Pan</label> <br>
+
+                    <input type = "radio"
+                           name = "crust"
+                           id = "glutenFree"
+                           value = "crust" />
+                    <label for = "glutenFree">Gluten-Free</label>
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Meats ($1.50 each)</h3></legend>
+                <input type = "checkbox"
+                       name = "meat"
+                       id = "sausage"
+                       value = "meat"
+                       data-price="1.5" />
+                <label for="sausage">Sausage</label><br>
+
+                <input type = "checkbox"
+                       name = "meat"
+                       id = "pepperoni"
+                       value = "meat"
+                       data-price="1.5" />
+                <label for="pepperoni">Pepperoni</label><br>
+
+                <input type = "checkbox"
+                       name = "meat"
+                       id = "grilledChicken"
+                       value = "meat"
+                       data-price="1.5" />
+                <label for="grilledChicken">Grilled Chicken</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Veggies ($1.00 each)</h3></legend>
+                <input type = "checkbox"
+                       name = "veggies"
+                       id = "blackOlives"
+                       value = "veggies"
+                       data-price="1" />
+                <label for="blackOlives">Black Olives</label><br>
+
+                <input type = "checkbox"
+                       name = "veggies"
+                       id = "mushrooms"
+                       value = "veggies"
+                       data-price="1" />
+                <label for="mushrooms">Mushrooms</label><br>
+
+                <input type = "checkbox"
+                       name = "meat"
+                       id = "greenPepper"
+                       value = "meat"
+                       data-price="1" />
+                <label for="greenPepper">Green Pepper</label><br>
+
+                <input type = "checkbox"
+                       name = "veggies"
+                       id = "onion"
+                       value = "veggies"
+                       data-price="1" />
+                <label for="onion">Onion</label><br>
+            </fieldset>
+
+        </fieldset>
+    </form>
+    <h2>Enter delivery information</h2>
+        <fieldset>
+            <form>
+                <label for="pizza-name">Name (first and last): </label>
+                <input id="pizza-name" name="name" type="text" required> <br> <br>
+
+                <label for="pizza-address">Address: </label>
+                <input id="pizza-address" name="address" type="text" required> <br> <br>
+
+                <label for="pizza-myPhone">Phone: </label>
+                <input id="pizza-myPhone" name="myPhone" type="tel" required> <br> <br>
+
+                <button>Order Now!</button>
+            </form>
+        </fieldset>
+
+    <h2>Order confirmation</h2>
+        <fieldset>
+            <table>
+                <tr>
+                    <td id="nameOutput"></td>
+                </tr>
+                <tr>
+                    <td id="addressOutput"></td>
+                </tr>
+                <tr>
+                    <td id="myPhoneOutput"></td>
+                </tr>
+                <tr>
+                    <td id="sizeOutput"></td>
+                </tr>
+                <tr>
+                    <td id="crustOutput"></td>
+                </tr>
+                <tr>
+                    <td id="meatOutput"></td>
+                </tr>
+                <tr>
+                    <td id="veggieOutput"></td>
+                </tr>
+                <tr>
+                    <td>Order Total</td>
+                    <td id=grandTotalOutput"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+</body>
+<footer>
+    Copyright &copy 2020 Mario's Pizzeria<br>
+    Created by Christopher Buetow
+</footer>
+</html>
